@@ -5,11 +5,8 @@ enableToc: false
 
 Welcome to my digital garden. It's a work in progress! 
 
-## Recent Posts:
 
-The following link was a simple double square bracket syntax.
+##  Recent Posts: 
+- [Setting Up Obsidian-based Digital Garden website](blamechance.github.io/content/Digital_Garden_(Public)/Setting%20Up%20Obsidian-based%20Digital%20Garden%20website.md)
 
-* Current test without kebab-case + obsidian-export: 
-  * *Setting Up Obsidian based Digital Garden website*
-* Test with kebab case + obsidian-export: 
-  * *Setting-Up-Obsidian-based-Digital-Garden-website*
+

@@ -31,7 +31,7 @@ Resources:
 
 ## Linux (ubuntu) installation:
 
-In the event it's useful for others, here are the steps I took to get it all going.
+In the event it's useful for others unfamiliar, here are the steps I took to get it all going.
 
 Firstly, fork and clone the following repo locally:
 `https://github.com/jackyzha0/quartz`
@@ -106,3 +106,31 @@ Run the following to load the edited config to current shell (you might need to 
 1. Copy the folder into the `content` folder in your quartz directory.
 
 1. That's it! Run `make serve` to view your website locally, and push to your github repo to host it on [Github pages](https://quartz.jzhao.xyz/notes/hosting/).
+
+#### Automating export:
+Here's a quick and dirty bash script to clears the repo's copy of the vault and index files, to copy in the current ones from the obsidian vault location. 
+
+Automating this process means the creation process of posts is simple:
+1. Write/edit posts and index file as notes in obsidian
+2. Run `make serve` to host local render of website. 
+3. Run script in terminal to update the browser render live. 
+4. To post, push on git! 
+
+Feel free to adapt if useful.
+
+```bash
+#!/bin/bash
+
+
+SOURCE_PATH=~/path/to/source
+DESTINATION_PATH=~/path/to/destination
+
+# Delete all files in the target export folder - public_digital_garden is the folder that i've placed all my obsidian notes in (both in my vault and the quartz folder). Adapt for your folder name. 
+
+rm "$DESTINATION_PATH"/Public_Digital_Garden/*
+rm "$DESTINATION_PATH"/_index.md
+
+# Copy index file and public folder from obsidian vault to export folder for git pushing
+cp -r "$SOURCE_PATH"/Public_Digital_Garden "$DESTINATION_PATH"/
+cp "$SOURCE_PATH"/_index.md "$DESTINATION_PATH"/
+```
