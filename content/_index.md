@@ -1,5 +1,5 @@
 ---
-title: Tommy's Digital Cottage
+title: 🏡 Blamechance's Digital Cottage.
 enableToc: false
 ---
 
