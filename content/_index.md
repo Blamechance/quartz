@@ -1,5 +1,5 @@
 ---
-title: 👋 Tommy's Digital Garden
+title: Tommy's Digital Cottage
 enableToc: false
 ---
 
