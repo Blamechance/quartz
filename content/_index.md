@@ -5,10 +5,11 @@ enableToc: false
 
 Welcome to my digital garden. It's a work in progress! 
 
+## Recent Posts:
 
-##  Recent Posts: 
-- [Setting Up Obsidian-based Digital Garden website](obsidian://open?vault=obsidian_blamechance_wiki&file=Digital_Garden_(Public)%2FSetting-Up-Obsidian-based-Digital-Garden-website)
-- [[Digital_Garden_(Public)/Setting-Up-Obsidian-based-Digital-Garden-website|Setting-Up-Obsidian-based-Digital-Garden-website]]
-- [[Digital_Garden_(Public)/Setting-Up-Obsidian-based-Digital-Garden-website|Setting-Up-Obsidian-based-Digital-Garden-website]]
+The following link was a simple double square bracket syntax.
 
-
+* Current test without kebab-case + obsidian-export: 
+  * *Setting Up Obsidian based Digital Garden website*
+* Test with kebab case + obsidian-export: 
+  * *Setting-Up-Obsidian-based-Digital-Garden-website*
