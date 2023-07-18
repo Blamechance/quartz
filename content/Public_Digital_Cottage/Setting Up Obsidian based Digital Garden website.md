@@ -6,32 +6,18 @@ tags:
 - quartz
 ---
 
-### First attempt:
+In looking for a simpler static site generator, I stumbled upon the following video: 
 
-On first attempt, I was looking to replicate the following
+* [Publishing your Vault Online With Quartz](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/) - [Brandon Boswell](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/)
+* I found this method to have a few too many gaps in instruction to replicate his home brewed solution. 
 
-* [Publishing your Vault Online With Quartz](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/)
-* I found this method to have a few too many gaps in instruction to replicate his home brewed solution for selective upload of vault files.
+I decided instead to stand on the shoulders of [jackyzha0](https://github.com/jackyzha0/quartz) 's incredible Quartz repo as the touchstone instead, and adapt my solution from there. 
 
-### Final solution
-
-I ended up deciding to stand on the shoulders of [jackyzha0](https://github.com/jackyzha0/quartz) for the time being and use his incredible Quartz Repo. 
-
-* Currently, this means manually copying in the "public" folder of my obsidian vault, each time I want to upload.
-* Eventually I plan to automate this with my own cron-job based script.
-
-Resources:
-
-* https://github.com/jackyzha0/quartz
-* https://quartz.jzhao.xyz/notes/hosting/
-* https://quartz.jzhao.xyz/notes/troubleshooting/
-* https://quartz.jzhao.xyz/notes/config/
+In the event it's useful for others, here are the steps I took to get it all going.
 
 ---
 
 ## Linux (ubuntu) installation:
-
-In the event it's useful for others unfamiliar, here are the steps I took to get it all going.
 
 Firstly, fork and clone the following repo locally:
 `https://github.com/jackyzha0/quartz`
@@ -50,7 +36,7 @@ sudo snap install hugo
    
    * Make sure go version is (>= 1.16).
    * [Go installation page](https://gohugo.io/installation/)
-1. Initialise a new go module for project, using github repo URL. e.g
+2. Initialise a new go module for project, using github repo URL. e.g
 
 ````
 go mod init github.com/Blamechance/blamechance.github.io
@@ -58,20 +44,21 @@ go mod init github.com/Blamechance/blamechance.github.io
 
 If you experience path issues, indicated by `command not found` errors:
 
-1. Confirm where go installed it's folder (normally in `~/[user]` folder).
+	a. Confirm where GO installed itself (normally in `~/[user]` folder).
+	
+	b. Edit or create `.bash_profile` file in user directory.
+	
+	c. Add the following line to the file, e.g:
 
-1. Edit or create `.bash_profile` file in user directory.
-
-1. Add the following line to the file, e.g:
-
-````
+```
 export PATH="$HOME/go/bin:$PATH"
-````
+```
 
 Run the following to load the edited config to current shell (you might need to restart your app if operating terminal in something like vscode for same effect):
 `source ~/.bash_profile`
 
 3. Install `hugo-obsidian` to enable backlink conversion, for local site live previewing:
+
    a. Get the modules required:
    
    ````
@@ -134,3 +121,10 @@ rm "$DESTINATION_PATH"/_index.md
 cp -r "$SOURCE_PATH"/Public_Digital_Garden "$DESTINATION_PATH"/
 cp "$SOURCE_PATH"/_index.md "$DESTINATION_PATH"/
 ```
+---
+#### References: 
+Resources:
+* https://github.com/jackyzha0/quartz
+* https://quartz.jzhao.xyz/notes/hosting/
+* https://quartz.jzhao.xyz/notes/troubleshooting/
+* https://quartz.jzhao.xyz/notes/config/

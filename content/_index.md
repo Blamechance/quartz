@@ -3,10 +3,16 @@ title: 👋 Tommy's Digital Garden
 enableToc: false
 ---
 
-Welcome to my digital garden. It's a work in progress! 
+Welcome to my digital cottage space!
+
+My vision is for it to be a place to:
+- Showcase my learning journey
+- Share my thoughts, experiences and other mental snippets
+- Share notes (technical and non) stored in my obsidian vault. 
+- Store just enough of my personality so I can one day live eternally as an AI 
+
+Feel free to poke around - it's a work in progress! 
 
 
 ##  Recent Posts: 
-- [Setting Up Obsidian-based Digital Garden website](blamechance.github.io/content/Digital_Garden_(Public)/Setting%20Up%20Obsidian-based%20Digital%20Garden%20website.md)
-
-
+- [[Public_Digital_Cottage/Setting Up Obsidian based Digital Garden website|Setting Up Obsidian based Digital Garden website]]
