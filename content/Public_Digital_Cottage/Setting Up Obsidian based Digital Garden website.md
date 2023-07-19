@@ -1,6 +1,6 @@
 ---
 title: Setting Up Obsidian-based Digital Garden website
-date: 2023-07-18T16:14
+lastmod: 2023-07-18T16:14
 tags:
 - obsidian
 - quartz

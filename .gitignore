@@ -4,6 +4,7 @@ resources
 .idea
 content/.obsidian
 content/Private
+content/images
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 linkmap

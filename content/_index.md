@@ -1,7 +1,8 @@
 ---
-title: 🏡 Blamechance's Digital Cottage.
+title: Blamechance's Digital Cottage
 enableToc: false
 ---
+![snowcottageheader.png](/content/Public_Digital_Cottage/attachments/snowcottageheader.png)
 
 Welcome to my digital cottage space!
 
