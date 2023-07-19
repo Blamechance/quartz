@@ -2,7 +2,14 @@
 title: Blamechance's Digital Cottage
 enableToc: false
 ---
+This is native md syntax: 
 ![snowcottageheader.png](/content/Public_Digital_Cottage/attachments/snowcottageheader.png)
+
+This is native double bracket obsidian syntax: 
+[[Public_Digital_Cottage/attachments/snowcottageheader.png]]
+
+This is native double bracket obsidian syntax, preceded with a "!": 
+![[Public_Digital_Cottage/attachments/snowcottageheader.png]]
 
 Welcome to my digital cottage space!
 
