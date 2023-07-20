@@ -13,5 +13,11 @@ My vision is for it to be a place to:
 Feel free to poke around - it's a work in progress! 
 
 
+
 ##  Recent Posts: 
 - [[Public_Digital_Cottage/Setting Up Obsidian based Digital Garden website|Setting Up Obsidian based Digital Garden website]]
+
+
+
+
+]]
