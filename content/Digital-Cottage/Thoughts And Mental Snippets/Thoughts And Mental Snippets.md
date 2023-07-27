@@ -7,6 +7,6 @@ tags:
 ---
 ### My written posts and other mental snippets. 
 
-- [[Digital-Cottage/Thoughts And Mental Snippets/Personally Defined Rules For Learning With AI|Personally Defined Rules For Learning With AI]]
 
+- [[Digital-Cottage/Thoughts And Mental Snippets/Personally Defined Rules For Learning With AI|Personally Defined Rules For Learning With AI]]
 

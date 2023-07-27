@@ -25,4 +25,3 @@ Some key ideas:
 
 ## Development: 
 I'm currently plugging away at the working prototype [here](https://github.com/Blamechance/fitness-dashboard)!
-

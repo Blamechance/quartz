@@ -29,4 +29,3 @@ This increases the mental investment, and interaction with the ideas. It also ma
 2. Pick a detail to learn, and understand it both by itself, and within the big picture context. 
     - Part of slotting the new concept into the “big picture” is enabling insights and associations with existing ideas that make sense.
 3. In both instances, invest genuine interest and interaction while also trying to invest parts of the solution as you go. 
-

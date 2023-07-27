@@ -1,5 +1,5 @@
 ---
-title: "Dreams without goals are just dreams, and ultimately, they fuel disappointment."
+title: "Dreams without goals are just dreams, and ultimately, they fuel disappointment.
 date: 2023-07-26T01:15
 enableToc: false
 tags:
@@ -14,5 +14,4 @@ tags:
 >~ Pastor A. R. Bernard / Denzel Washington.
 
 I find this quote very simple and elegant, in it's ability to represent the fundamentals to accomplishing goals. 
-
 

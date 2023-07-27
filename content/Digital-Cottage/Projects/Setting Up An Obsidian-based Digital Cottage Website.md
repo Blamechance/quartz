@@ -140,4 +140,3 @@ Resources:
 * https://quartz.jzhao.xyz/notes/config/
 * https://docs.github.com/en/pages/quickstart
 * [Publishing your Vault Online With Quartz](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/) - [Brandon Boswell](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/)
-
