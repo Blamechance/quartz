@@ -14,10 +14,15 @@ Feel free to poke around - it's a work in progress!
 
 
 
-##  Recent Posts: 
-- [[Public_Digital_Cottage/Setting Up Obsidian based Digital Garden website|Setting Up Obsidian based Digital Garden website]]
+## Recent Posts: 
+- [[Digital-Cottage/Thoughts And Mental Snippets/Personally Defined Rules For Learning With AI|Personally Defined Rules For Learning With AI]]
+- [[Digital-Cottage/Projects/Setting Up An Obsidian-based Digital Cottage Website|Setting Up An Obsidian-based Digital Cottage Website]]
+- [[Digital-Cottage/Resonance Journal/"Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)"- Colin Galen|"Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)"- Colin Galen]]
+- [[Digital-Cottage/Resonance Journal/Dreams without goals are just dreams, and ultimately, they fuel disappointment.|Dreams without goals are just dreams, and ultimately, they fuel disappointment.]]
 
 
-
-
-]]
+## Maps Of Content: 
+- [[Digital-Cottage/Thoughts And Mental Snippets/Thoughts And Mental Snippets|Thoughts And Mental Snippets]] - My written posts and other mental snippets. 
+- [[Digital-Cottage/Notes/Notes|Notes]] - Free-for-all space for sharing notes I've created within my digital Personal Knowledge Management systems.
+- [[Digital-Cottage/Projects/Projects|Projects]] - Napkin sketches, working products, and everything in between. 
+- [[Digital-Cottage/Resonance Journal/Resonance Journal|Resonance Journal]] - A free-for-all list of all the content I consume that resonates with me. 

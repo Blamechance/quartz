@@ -1,26 +1,36 @@
 ---
-title: Setting Up Obsidian-based Digital Garden website
+title: Setting Up An Obsidian-based Digital Garden Website
 lastmod: 2023-07-18T16:14
 tags:
 - obsidian
 - quartz
 ---
 
-In looking for a simpler static site generator, I stumbled upon the following video: 
+It's been a backlog priority of mine for a while now to start writing online. 
+As someone who has been working with a second brain/PKM system for a while now (Notion & Obsidian), I figured a solution that can leverage that personal written content for the purpose would be ideal: 
 
-* [Publishing your Vault Online With Quartz](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/) - [Brandon Boswell](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/)
-* I found this method to have a few too many gaps in instruction to replicate his home brewed solution. 
+- Note-taking is part of my natural way of working - this means I passively generate content, and perhaps through integration, writing online could also feel as frictionless. 
+- Both apps are written in native markdown content, making translation to web pages easy. 
+- The value of each resource is substantial, but integrated, the resulting personal ecosystem could be way greater. 
 
-I decided instead to stand on the shoulders of [jackyzha0](https://github.com/jackyzha0/quartz) 's incredible Quartz repo as the touchstone instead, and adapt my solution from there. 
+I decided instead to stand on the shoulders of [jackyzha0](https://github.com/jackyzha0/quartz) 's incredible Quartz repo as the touchstone, and adapt my solution from there. 
 
-In the event it's useful for others, here are the steps I took to get it all going.
-
+In the event it's useful for others, here are the steps I took to get it all going. 
+It involves: 
+- [The Quartz Repository, by Jacky Zhao](https://github.com/jackyzha0/quartz)
+- An existing [Obsidian Vault](https://obsidian.md/)
+	- A particularly useful related plugin is [Waypoint](https://github.com/IdreesInc/Waypoint), for generating MOC pages. 
+- [GitHub Pages for hosting](https://docs.github.com/en/pages/quickstart)
+- And a little scripting for quality of life changes. 
 ---
 
 ## Linux (ubuntu) installation:
 
 Firstly, fork and clone the following repo locally:
-`https://github.com/jackyzha0/quartz`
+
+````
+https://github.com/jackyzha0/quartz
+````
 
 ### 1. Install Hugo:
 
@@ -90,9 +100,9 @@ Run the following to load the edited config to current shell (you might need to 
    * I set up my vault to have a `public` and a `private` folder. 
    * My workflow for now will involve working in obsidian, and logically considering the `public` folder the space where I move notes I want to share. 
    * All notes/posts will be edited and created through the obsidian -> export process, with the only elements needing editing within an IDE being the index file, CSS, html etc. 
-1. Copy the folder into the `content` folder in your quartz directory.
+2. Copy the folder into the `content` folder in your quartz directory.
 
-1. That's it! Run `make serve` to view your website locally, and push to your github repo to host it on [Github pages](https://quartz.jzhao.xyz/notes/hosting/).
+3. That's it! Run `make serve` to view your website locally, and push to your github repo to host it on [Github pages](https://docs.github.com/en/pages/quickstart).
 
 #### Automating export:
 Here's a quick and dirty bash script to clears the repo's copy of the vault and index files, to copy in the current ones from the obsidian vault location. 
@@ -103,7 +113,7 @@ Automating this process means the creation process of posts is simple:
 3. Run script in terminal to update the browser render live. 
 4. To post, push on git! 
 
-Feel free to adapt if useful.
+Feel free to adapt if the idea is useful.
 
 ```bash
 #!/bin/bash
@@ -128,3 +138,5 @@ Resources:
 * https://quartz.jzhao.xyz/notes/hosting/
 * https://quartz.jzhao.xyz/notes/troubleshooting/
 * https://quartz.jzhao.xyz/notes/config/
+* https://docs.github.com/en/pages/quickstart
+* [Publishing your Vault Online With Quartz](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/) - [Brandon Boswell](https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/)
