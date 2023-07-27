@@ -6,7 +6,7 @@ tags:
 - AI
 - learning
 ---
-
+[[Digital-Cottage/Thoughts And Mental Snippets/Thoughts And Mental Snippets|Thoughts And Mental Snippets]]
 Fundamentally, AI should be used as a first-point substitution for scanning of documentation, rubber ducky-ing as well as a tool to reduce start-up friction to tasks  — but rarely as a tool for bridging gaps in logic ability.
 
 >[!danger]
@@ -36,5 +36,5 @@ Fundamentally, AI should be used as a first-point substitution for scanning of d
     - [Glasp](https://glasp.co/youtube-summary)
     
 - GPT3.5 Agent
-    
     - [AgentGPT 🤖](https://agentgpt.reworkd.ai/)
+

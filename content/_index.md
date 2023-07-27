@@ -26,3 +26,4 @@ Feel free to poke around - it's a work in progress!
 - [[Digital-Cottage/Notes/Notes|Notes]] - Free-for-all space for sharing notes I've created within my digital Personal Knowledge Management systems.
 - [[Digital-Cottage/Projects/Projects|Projects]] - Napkin sketches, working products, and everything in between. 
 - [[Digital-Cottage/Resonance Journal/Resonance Journal|Resonance Journal]] - A free-for-all list of all the content I consume that resonates with me. 
+
