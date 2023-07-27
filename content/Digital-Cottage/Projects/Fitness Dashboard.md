@@ -24,5 +24,5 @@ Some key ideas:
 	- Output after check-in could also be sent to the discord channel as a webhook response, to share with everyone else. 
 
 ## Development: 
-
+I'm currently plugging away at the working prototype [here](https://github.com/Blamechance/fitness-dashboard)!
 
