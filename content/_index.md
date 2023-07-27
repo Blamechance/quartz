@@ -18,7 +18,6 @@ Feel free to poke around - it's a work in progress!
 - [[Digital-Cottage/Thoughts And Mental Snippets/Personally Defined Rules For Learning With AI|Personally Defined Rules For Learning With AI]]
 - [[Digital-Cottage/Projects/Setting Up An Obsidian-based Digital Cottage Website|Setting Up An Obsidian-based Digital Cottage Website]]
 - [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)]]
-- [[Digital-Cottage/Resonance Journal/Dreams without goals are just dreams, and ultimately, they fuel disappointment|Dreams without goals are just dreams, and ultimately, they fuel disappointment]]
 
 
 ## Maps Of Content: 

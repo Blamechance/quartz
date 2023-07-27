@@ -1,5 +1,5 @@
 ---
-title: "Dreams without goals are just dreams, and ultimately, they fuel disappointment.
+title: Dreams without goals are just dreams, and ultimately, they fuel disappointment.
 date: 2023-07-26T01:15
 enableToc: false
 tags:
