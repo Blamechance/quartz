@@ -23,5 +23,7 @@ Feel free to poke around - it's a work in progress!
 ## Maps Of Content: 
 - [[Digital-Cottage/Thoughts And Mental Snippets/Thoughts And Mental Snippets|Thoughts And Mental Snippets]] - My written posts and other mental snippets. 
 - [[Digital-Cottage/Notes/Notes|Notes]] - Free-for-all space for sharing notes I've created within my digital Personal Knowledge Management systems.
-- [[Digital-Cottage/Projects/Projects|Projects]] - Napkin sketches, working products, and everything in between. 
+- [[Digital-Cottage/Projects/Projects|Projects]] - Napkin sketches, working products, and everything in between.
+	- Currently working on: 
+		- [[Digital-Cottage/Projects/Fitness Dashboard| Fitness Dashboard]]
 - [[Digital-Cottage/Resonance Journal/Resonance Journal|Resonance Journal]] - A free-for-all list of all the content I consume that resonates with me. 

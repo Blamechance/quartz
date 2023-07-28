@@ -8,6 +8,6 @@ tags:
 ### Free-for-all space for sharing notes I've created within my digital Personal Knowledge Management systems.
 
 
-
+- [[Digital-Cottage/Notes/Clean Code|Clean Code]]
 
 
