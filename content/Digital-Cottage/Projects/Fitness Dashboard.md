@@ -3,9 +3,8 @@ title: "Fitness Dashboard"
 date: 2023-07-26T22:56
 enableToc: false
 tags:
-- fitness
-- flask
-- python
+- Flask
+- Python
 - HTML
 - CSS
 ---
