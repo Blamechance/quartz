@@ -1,5 +1,5 @@
 ---
-title: "Focusing Your Unconscious Mind: Learn Hard Concepts Intuitively (And Forever)"
+title: "\"Focusing Your Unconscious Mind: Learn Hard Concepts Intuitively (And Forever)\" - Colin Galen"
 date: 2023-07-27T01:15
 enableToc: false
 tags:

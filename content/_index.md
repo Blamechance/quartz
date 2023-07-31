@@ -20,3 +20,4 @@ Feel free to poke around - it's a work in progress!
 	- Currently working on: 
 		- [[Digital-Cottage/Projects/Fitness Dashboard| Fitness Dashboard]] - A simple full-stack flask-based, dashboard website. 
 - [[Digital-Cottage/Resonance Journal/Resonance Journal|Resonance Journal]] - A free-for-all list of all the content I consume that resonates with me. 
+- [[Digital-Cottage/Books/Books|Books]] - Notes, reviews and reflections from books I've read. 
