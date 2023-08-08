@@ -8,7 +8,6 @@ tags:
 ### Free-for-all space for sharing notes I've created within my digital Personal Knowledge Management systems.
 
 
-- **attachments**
 
 - [[Digital-Cottage/Notes/Clean Code|Clean Code]]
 - [[Digital-Cottage/Notes/Robert J. Oppenheimer|Robert J. Oppenheimer]]

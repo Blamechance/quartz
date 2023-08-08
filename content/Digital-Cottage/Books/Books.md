@@ -8,5 +8,6 @@ tags:
 ### Quotes, summaries and reviews of books I've read. 
 
 
-
+- [[Digital-Cottage/Books/The 7 Habits of Highly Effective People|The 7 Habits of Highly Effective People]]
+- [[Digital-Cottage/Books/The Psychology of Money - Morgan Housel|The Psychology of Money - Morgan Housel]]
 
