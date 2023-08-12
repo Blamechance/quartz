@@ -27,6 +27,6 @@ The difference seems to me, to be the difference between learning and ruminating
 
 
 **Takeaway:** 
-Once comfortable enough with a stack of technologies, draw a line with discipline to not obsess over new additions, and just focus on **creation**. 
+Once comfortable enough with a stack of technologies, draw a line with discipline to not obsess over shiny things and new additions -- just focus on **value CREATION**. 
 
 
