@@ -20,15 +20,10 @@ tags:
 
 **Certified**: 11th Aug 2023. 
 
+## Thoughts on Content:
+Generally, all cloud service offerings are based on familiar, existing technologies that customers would normally have hosted themselves on-premises. Due to this, it was helpful to relate service offerings to general industry status quo and requirements. Other notes: 
 
-
-![[Digital-Cottage/Notes/attachments/Achieving AWS SA - Associate (SAA-C03) Certification.png]]
-
-
-## Thoughts on Content: 
-Generally, all cloud service offerings are based on existing technologies that customers would host themselves and that many are already familiar with. Based on this, I found it useful to: 
-
-- Frame learning with a perspective of [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|"inventing"]] the solutions myself. 
+- Frame learning with a perspective of [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|"inventing"]] the solutions. 
 	- I did this as I progressed through the content - linking it to tech I'm already familiar with, and other ones that I wasn't yet.
 
 - Alternate between top-down and bottom up learning. 
@@ -43,7 +38,7 @@ These things helped me understand concepts on a deeper level, particularly with:
 3. Where it's value/role slots into cloud architecture design. 
 
 ## Thoughts on the Exam:
-It shouldn't be overlooked that this is an exam-based certificate. Unavoidable priorities include: 
+It shouldn't be overlooked that the certification is contingent on displaying understanding in an exam scenario. Unavoidably, it's also important to cover exam-taking ability. General priorities include: 
 
 - Familiarising with common *patterns* and *anti-patterns.* 
 	- *e.g*  Discerning between the ELB, DB and storage offerings for their respective use cases. 
