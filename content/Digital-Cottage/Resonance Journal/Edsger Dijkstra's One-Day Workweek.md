@@ -9,7 +9,7 @@
 # Backlinks will populate with waypoint page, to MOC. 
 
 title: "Edsger Dijkstra’s One-Day Workweek"
-date: 2023-08-08T21:46
+date: 2023-08-09T22:46
 enableToc: false
 tags:
 - resonance-journal
@@ -29,4 +29,4 @@ The difference seems to me, to be the difference between learning and ruminating
 **Takeaway:** 
 Once comfortable enough with a stack of technologies, draw a line with discipline to not obsess over shiny things and new additions -- just focus on **value CREATION**. 
 
-
+ 
