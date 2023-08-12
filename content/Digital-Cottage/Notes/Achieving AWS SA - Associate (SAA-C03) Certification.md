@@ -21,7 +21,10 @@ tags:
 **Certified**: 11th Aug 2023. 
 
 ## Thoughts on Content:
-Generally, all cloud service offerings are based on familiar, existing technologies that customers would normally have hosted themselves on-premises. Due to this, it was helpful to relate service offerings to general industry status quo and requirements. Other notes: 
+Generally, all cloud service offerings are based on familiar, existing technologies that customers would normally have hosted themselves on-premises. 
+
+Due to this, it was helpful to relate service offerings to general industry status quo and requirements. 
+Other notes: 
 
 - Frame learning with a perspective of [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|"inventing"]] the solutions. 
 	- I did this as I progressed through the content - linking it to tech I'm already familiar with, and other ones that I wasn't yet.
@@ -32,20 +35,6 @@ Generally, all cloud service offerings are based on familiar, existing technolog
 - Similar of my experience working at AWS, documentation of services is **robust** and should be used as the first contact sources of truth.
 	- Diving into the FAQs/documentation would often lead to any context or answers I was missing. 
 
-These things helped me understand concepts on a deeper level, particularly with:
-1. What it does
-2. Why it was developed; and 
-3. Where it's value/role slots into cloud architecture design. 
-
-## Thoughts on the Exam:
-It shouldn't be overlooked that the certification is contingent on displaying understanding in an exam scenario. Unavoidably, it's also important to cover exam-taking ability. General priorities include: 
-
-- Familiarising with common *patterns* and *anti-patterns.* 
-	- *e.g*  Discerning between the ELB, DB and storage offerings for their respective use cases. 
-
-- Get comfortable with breaking down question structure efficiently. 
-	- I found it useful to read from the questions bottom up - I felt it allowed better identification of the important details, when reading through the fluff. 
-
 - Make use of free tier and tinker within the AWS console, to anchor learned content. 
 	- I made little notes along the way for ways I can make use of services within personal projects. 
 
@@ -53,9 +42,22 @@ It shouldn't be overlooked that the certification is contingent on displaying un
 	- Internally, we use different code names for hardware to disassociate server from service (as well as tight controls on information), so my guess is as good as any but ...
 	- It's fun to theorise on elements such as whether aurora storage is hosted on S3 or EBS based hardware. 
 
+These things helped me understand concepts on a deeper level, particularly with:
+1. What it does
+2. Why it was developed; and 
+3. Where it's value/role slots into cloud architecture design. 
 
+## Thoughts on the Exam:
+It shouldn't be overlooked that the certification is contingent on displaying understanding in an exam scenario. Unavoidably, it's also important to cover exam-taking ability.
+General priorities include: 
 
-## Napkin Scratch AWS Project ideas:
+- Familiarising with common *patterns* and *anti-patterns.* 
+	- *e.g*  Discerning between the ELB, DB and storage offerings for their respective use cases. 
+
+- Get comfortable with breaking down question structure efficiently. 
+	- I found it useful to read from the questions bottom up - I felt it allowed better identification of the important details, when reading through the fluff. 
+
+### Napkin Scratch AWS Project ideas:
 While working through the content, I had fun letting my mind wander on potential uses for the services within future project ideas. 
 
 - Use an S3 bucket with [[Digital-Cottage/Projects/Fitness Dashboard|Fitness Dashboard]] to store backup/archives of either the user’s input spreadsheets, or output JSON files. 
