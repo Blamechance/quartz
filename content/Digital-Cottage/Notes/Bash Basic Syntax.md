@@ -8,7 +8,7 @@
 
 # Backlinks will populate with waypoint page, to MOC. 
 
-title: "Bash Basic Syntax Notes"
+title: "Bash Basic Syntax"
 date: 2023-08-19T22:24
 enableToc: false
 tags:
@@ -17,10 +17,10 @@ tags:
 ---
 ### Learning Resources: 
 Skimming and pulling creating notes for TILs: 
-[Bash Scripting Tutorial for Beginners (FreeCodeCamp Video)](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
-[linuxhint 3 hr video](https://www.youtube.com/watch?v=e7BufAVwDiM)
-https://learn.acloud.guru/course/admin-guide-to-bash-scripting/overview
-[Google Style Guide](https://google.github.io/styleguide/shellguide.html)
+- [Bash Scripting Tutorial for Beginners (FreeCodeCamp Video)](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
+- [linuxhint 3 hr video](https://www.youtube.com/watch?v=e7BufAVwDiM)
+- https://learn.acloud.guru/course/admin-guide-to-bash-scripting/overview
+- [Google Style Guide](https://google.github.io/styleguide/shellguide.html)
 
 --- 
 ### Hello World Scripting

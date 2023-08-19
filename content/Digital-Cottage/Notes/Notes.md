@@ -10,7 +10,7 @@ tags:
 
 - [[Digital-Cottage/Notes/Achieving AWS SA - Associate (SAA-C03) Certification|Achieving AWS SA - Associate (SAA-C03) Certification]]
 
-- [[Digital-Cottage/Notes/Bash Basic Syntax Notes|Bash Basic Syntax Notes]]
+- [[Digital-Cottage/Notes/Bash Basic Syntax|Bash Basic Syntax]]
 - [[Digital-Cottage/Notes/Bash Programming|Bash Programming]]
 - [[Digital-Cottage/Notes/bash-awk|bash-awk]]
 - [[Digital-Cottage/Notes/bash-sed|bash-sed]]

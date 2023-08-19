@@ -17,6 +17,7 @@ tags:
 
 
 ##### Resources: 
-- [TutorialPoint Tutorial](https://www.tutorialspoint.com/awk/index.htm)
+- [TutorialPoint - `awk`](https://www.tutorialspoint.com/awk/index.htm)
+- [GeeksforGeeks - `awk`](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/)
 
 ---
