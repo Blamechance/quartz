@@ -38,7 +38,7 @@ I'm currently plugging away at the working prototype [here](https://github.com/B
 | Add user log-in functionality                                                                 | ⚪ Not Started |                                                                                                                                       |
 | Add better storage/archive of processed data                                                  | ⚪ Not Started | Could back up provided CSV, processed JSON etc.. as long as it's saved somewhere other than local to server and time stamped to user. |
 | Break server side functions into [Clean Code](/Digital-Cottage/Notes/Clean%20Code) principles | ⚪ Not Started |                                                                                                                                       |
-| Host project on AWS                                                                           |   🚧 On Hold   | Currently studying AWS:SA cert - revisit once certified.                                                                              |
+| Host project on AWS                                                                           |   🚧 On Hold   | Acquired AWS:SA Associate certificate. Completing project before migrating to cloud.                                                                                |
 
 <br>
 

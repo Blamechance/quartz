@@ -8,6 +8,9 @@ tags:
 ### Quotes, summaries and reviews of books I've read. 
 
 
-- [[Digital-Cottage/Books/The 7 Habits of Highly Effective People|The 7 Habits of Highly Effective People]]
-- [[Digital-Cottage/Books/The Psychology of Money - Morgan Housel|The Psychology of Money - Morgan Housel]]
+- [[Digital-Cottage/Books/After Dark - Murakami|After Dark - Murakami]]
+- [[Digital-Cottage/Books/Flow - Csikszentmihalyi|Flow - Csikszentmihalyi]]
+- [[Digital-Cottage/Books/The 7 Habits of Highly Effective People - Covey|The 7 Habits of Highly Effective People - Covey]]
+- [[Digital-Cottage/Books/The Defining Decade - Jay|The Defining Decade - Jay]]
+- [[Digital-Cottage/Books/The Psychology of Money - Housel|The Psychology of Money - Housel]]
 

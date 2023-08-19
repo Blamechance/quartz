@@ -35,17 +35,13 @@ Other notes:
 - Similar of my experience working at AWS, documentation of services is **robust** and should be used as the first contact sources of truth.
 	- Diving into the FAQs/documentation would often lead to any context or answers I was missing. 
 
-- Make use of free tier and tinker within the AWS console, to anchor learned content. 
-	- I made little notes along the way for ways I can make use of services within personal projects. 
+- Make use of AWS directly to validate understanding. 
+	- Use the free tier! 
+	- Use the documentation as sources of truth. 
 
 - It was also quite interesting to learn the concepts and relate it to the server hardware's design/architecture that I work with, making guesses in how the HWeng teams translated requirements into the design. 
 	- Internally, we use different code names for hardware to disassociate server from service (as well as tight controls on information), so my guess is as good as any but ...
 	- It's fun to theorise on elements such as whether aurora storage is hosted on S3 or EBS based hardware. 
-
-These things helped me understand concepts on a deeper level, particularly with:
-1. What it does
-2. Why it was developed; and 
-3. Where it's value/role slots into cloud architecture design. 
 
 ## Thoughts on the Exam:
 It shouldn't be overlooked that the certification is contingent on displaying understanding in an exam scenario. Unavoidably, it's also important to cover exam-taking ability.
