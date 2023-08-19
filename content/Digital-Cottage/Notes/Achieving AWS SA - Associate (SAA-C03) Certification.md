@@ -26,20 +26,13 @@ Generally, all cloud service offerings are based on familiar, existing technolog
 Due to this, it was helpful to relate service offerings to general industry status quo and requirements. 
 Other notes: 
 
-- Frame learning with a perspective of [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|"inventing"]] the solutions. 
-	- I did this as I progressed through the content - linking it to tech I'm already familiar with, and other ones that I wasn't yet.
+- **Frame learning with a perspective of [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|"inventing"]] the solutions.** I did this as I progressed through the content - linking it to tech I'm already familiar with, and other ones that I wasn't yet.
 
-- Alternate between top-down and bottom up learning. 
-	- Lead this based on curiosity and naturally arising questions. Doing so would often walk me to "ah-ha!" moments. 
+- **Alternate between top-down and bottom up learning.** Lead this based on curiosity and naturally arising questions. Doing so would often walk me to "ah-ha!" moments. 
 
-- Similar of my experience working at AWS, documentation of services is **robust** and should be used as the first contact sources of truth.
-	- Diving into the FAQs/documentation would often lead to any context or answers I was missing. 
+- **Make use of AWS directly to validate understanding.** Use the free tier! Also, consult AWS documentation as the single sources of truth. 
 
-- Make use of AWS directly to validate understanding. 
-	- Use the free tier! 
-	- Use the documentation as sources of truth. 
-
-- It was also quite interesting to learn the concepts and relate it to the server hardware's design/architecture that I work with, making guesses in how the HWeng teams translated requirements into the design. 
+- **On a personal experience note,** It was  interesting to learn the concepts and relate it to the server hardware's design/architecture that I work with. 
 	- Internally, we use different code names for hardware to disassociate server from service (as well as tight controls on information), so my guess is as good as any but ...
 	- It's fun to theorise on elements such as whether aurora storage is hosted on S3 or EBS based hardware. 
 
@@ -47,11 +40,9 @@ Other notes:
 It shouldn't be overlooked that the certification is contingent on displaying understanding in an exam scenario. Unavoidably, it's also important to cover exam-taking ability.
 General priorities include: 
 
-- Familiarising with common *patterns* and *anti-patterns.* 
-	- *e.g*  Discerning between the ELB, DB and storage offerings for their respective use cases. 
+- **Familiarising with common *patterns* and *anti-patterns.*** *e.g*  Discerning between the ELB, DB and storage offerings for their respective use cases. 
 
-- Get comfortable with breaking down question structure efficiently. 
-	- I found it useful to read from the questions bottom up - I felt it allowed better identification of the important details, when reading through the fluff. 
+- **Get comfortable with breaking down question structure efficiently.** I found it useful to read from the questions bottom up - I felt it allowed better identification of the important details, when reading through the fluff. 
 
 ### Napkin Scratch AWS Project ideas:
 While working through the content, I had fun letting my mind wander on potential uses for the services within future project ideas. 
