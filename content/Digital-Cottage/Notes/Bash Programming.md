@@ -1,6 +1,22 @@
 ---
-tags: bash
+# 1. Add tags
+# 2. Add title
+
+# Note: Avoid using 
+# i. Special characters (like dashes and speech marks) for note title. 
+# ii. Ending in puncutations for  yaml title.  
+
+# Backlinks will populate with waypoint page, to MOC. 
+
+title: "Bash Programming"
+date: 2023-08-19T22:26
+enableToc: false
+tags:
+- bash
+- linux
 ---
-- [[Digital-Cottage/Notes/Bash Basic Syntax|Bash Basic Syntax]]
+
+
+- [[Digital-Cottage/Notes/Bash Basic Syntax Notes|Bash Basic Syntax Notes]]
 - [[Digital-Cottage/Notes/bash-sed|bash-sed]]
 - [[Digital-Cottage/Notes/bash-awk|bash-awk]]
