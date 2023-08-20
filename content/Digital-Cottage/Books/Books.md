@@ -6,6 +6,7 @@ tags:
 - MOC
 ---
 ### Quotes, summaries and reviews of books I've read. 
+*Format is {Title:Author}*
 
 
 - [[Digital-Cottage/Books/After Dark - Murakami|After Dark - Murakami]]

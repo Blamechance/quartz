@@ -8,6 +8,7 @@ tags:
 - HTML
 - CSS
 ---
+[Link to rep.](https://github.com/Blamechance/fitness-dashboard)
 # Concept: 
 My friends and I are big fans of a simple gym-tracking app that serves to replace a simple notebook and pen, called "FitNotes". 
 
