@@ -16,7 +16,9 @@ tags:
 - linux
 ---
 
+Refreshing my knowledge, and building my own boilerplate cheatsheets: 
 
-- [[Digital-Cottage/Notes/Bash Basic Syntax|Bash Basic Syntax]]
+# Index: 
+- [[Digital-Cottage/Notes/Bash Basic Syntax Refresher|Bash Basic Syntax Refresher]]
 - [[Digital-Cottage/Notes/bash-sed|bash-sed]]
 - [[Digital-Cottage/Notes/bash-awk|bash-awk]]

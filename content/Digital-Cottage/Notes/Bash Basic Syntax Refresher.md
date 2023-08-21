@@ -18,8 +18,6 @@ tags:
 ### Learning Resources: 
 Skimming and pulling creating notes for TILs: 
 - [Bash Scripting Tutorial for Beginners (FreeCodeCamp Video)](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
-- [linuxhint 3 hr video](https://www.youtube.com/watch?v=e7BufAVwDiM)
-- https://learn.acloud.guru/course/admin-guide-to-bash-scripting/overview
 - [Google Style Guide](https://google.github.io/styleguide/shellguide.html)
 
 --- 
@@ -70,8 +68,7 @@ echo Hello $FIRST_NAME $LAST_NAME
 What are positional arguments and what is the `0`-th position reserved for?
 ?
 - Refers to the arguments provided to shell, by commands. 
-- The `0`-th argument is reserved for the shell, like the following: 
-	- ![[Digital-Cottage/Notes/Private/attachments/Bash-lecture-notes.png|Private/attachments/Bash-lecture-notes.png]]
+- The `0`-th argument is reserved for the shell.
 
 What is the syntax to make use of positional arguments?
 ?
@@ -85,9 +82,9 @@ echo Hello $1 $2
 ### Output Redirection
 How do you redirect script output? 
 ?
-Redirects are done using `>`. 
+Redirects are done using "`>`".
 
-What is the difference betwen CTRL + d and CTRL + c?
+What is the difference between CTRL + d and CTRL + c in interacting with terminal?
 ?
 - CTRL + c  is an **interrupt**. 
 - CTRL + d is a **End of File signal**, often this will log user out of terminal. 
@@ -123,7 +120,7 @@ EOF
 The current working directory is: /home/linuxize
 You are logged in as: linuxize
 ```
-- or through use with "sed":
+- or through use with "`sort`":
 ```bash
 tommy@tommy-ubuntu-pc:~/Desktop$ sort -d << EOF
 > C
@@ -177,9 +174,6 @@ Piping is the practice of feeding the output of one command, into another.
 ls -l /bin/bin | grep bash
 ```
 This will only show ls results will hence only show results that contain the string "bash". 
-
-
-
 ### Test Operators
 What syntax refers to the exit code of the last command executed? How would you print this to terminal? 
 ?
