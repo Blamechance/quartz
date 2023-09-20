@@ -8,7 +8,7 @@ tags:
   - C++
 ---
 
-![YouTube Link.](https://www.youtube.com/watch?v=-QxI-RP6-HM)
+[YouTube Link.](https://www.youtube.com/watch?v=-QxI-RP6-HM)
 
 - Be flexible, patient and have a balanced life. Careers and life are long-term objectives, and they stand to benefit from those with balanced, human-centered perspectives. 
 - Don't neglect your relationships -- make new friends! 
