@@ -17,6 +17,7 @@ tags:
 - paradigm-shift
 - programming
 ---
+
 [YouTube Link.](https://www.youtube.com/watch?v=jclr0N6mvUI)
 [Similar anecdote (lucas).](https://www.youtube.com/watch?v=qBC6VHhj64c)
 
