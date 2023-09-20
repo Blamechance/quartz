@@ -38,3 +38,6 @@ In this instance, I took the advice and decided to spend some time doing CodeWar
 Though, there's likely a trap in here that could lead oneself into "feeling productive" without actually creating meaningful, high-quality value output -- to this point, this (and the former) approach would only generate it's most effective value when used within an en effective, alternating strategy guided by intuitive feeling. 
 
 ### Ultimately... 
+The critical thing is likely that **you keep going, and do so consistently**. The best application of these two schools of thoughts is likely to use both interchangeably, based on factors such as time/stamina/focus available -- mentally, you won't be in a single static frame of mind along the journey after all, and will have moments where you're more motivated or available than others. 
+
+
