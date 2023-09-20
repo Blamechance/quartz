@@ -8,9 +8,7 @@ tags:
   - Creation
 ---
 
-
-
-![YouTube Link](https://www.youtube.com/watch?v=FqhfFNTtuv0)
+[YouTube Link](https://www.youtube.com/watch?v=FqhfFNTtuv0)
 
 - Steve Jobs and John allowed design teams to butt heads and have more of a leading role in product design, which required engineering teams to accommodate and compromise, for design goals. 
 - Apple's design is rooted in Bauhaus design concepts. 
