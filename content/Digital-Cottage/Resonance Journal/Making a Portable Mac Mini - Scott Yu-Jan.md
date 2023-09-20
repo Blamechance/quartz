@@ -24,3 +24,6 @@ tags:
 3D printing seems like a low barrier to entry way to start experimenting with physical craftmanship. 
 Super cool. 
 
+He identifies himself as a [[Digital-Cottage/Resonance Journal/Maker|Maker]] -- interesting to see the creative passion shown in ways beyond software which I'm used to. 
+
+

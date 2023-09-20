@@ -18,3 +18,6 @@ tags:
 - Steve called Jony his "spiritual partner at Apple" -- his opinion was well respected as one of, if not it's leading second voice at the company. 
 - Jony conceptualised the iPhone model, with an "infinity pool type design to the display" privately to Steve as to avoid having the idea stifled by engineering. 
 - He was even knighted!
+- He created his own company, which for some time contracted for apple but they have since parted ways. 
+
+
