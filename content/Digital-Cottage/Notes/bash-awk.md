@@ -10,7 +10,7 @@
 
 title: "bash-awk"
 date: 2023-08-19T22:23
-enableToc: false
+enableToc: true
 tags:
 - bash
 ---
@@ -46,7 +46,6 @@ awk options 'selection _criteria {action }' input-file > output-file
 	- `printf`: formatted printing similar to python. 
 	- `delete`: can be used to delete both fields and lines. 
 
-
 # Quick Cheatsheet: 
 |                       **Description**                                         |                     **Syntax**                                                                           |
 | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -55,8 +54,8 @@ awk options 'selection _criteria {action }' input-file > output-file
 | Print only the lines that match a pattern                      | `{if ($0 ~ /pattern/) print $0}`                                                               |
 | Insert a line before or after the line that matches a pattern  | `{if ($0 ~ /pattern/) {print line; print $0}}` or `{if ($0 ~ /pattern/) print $0; print line}` |
 | Append a line to the end of the file                           | `{print line}`                                                                                 |
-| Change the case of letters                                     | `{print toupper($0)}` or `{print tolower($0)}`                                                 |
-| Add a line break                                               | `print "\n"`                                                                                   |
+| Change the delimiter from white space to another character   | `awk -F'new_char_here' '{ command }' file.txt`                                                 |
+| To only print the last field per line, use `$NF`           | `awk '{print $NF }' file.txt`                                                                                   |
 
 **Common commands/arguments:**
 *Example syntax incorporation:*
@@ -89,7 +88,7 @@ awk 'END { print NR }' test.txt
 **Variable assignment**:
 ```sh
 # syntax:
-variable_name = value
+variable_name=value
 
 # e.g:
 awk '{ name = $1; age = $2; print "Name:", name, "Age:", age }' data.txt
@@ -125,4 +124,19 @@ awk '/foo/ {print $2} delete $1' input.txt
 - It only be used to delete fields or records that have already been created.
 - It cannot delete fields or records that are created by other awk actions, such as  `split`.
 
+# Conditional logic: 
+**Example if-else logic:**
+```sh
+awk '{  
+if(condition_here)  
+{  
+print "condition matched!"  
+}  
+else  
+{  
+print "condition not matched!"  
+}  
+   
+}' sample_data.txt
+```
 

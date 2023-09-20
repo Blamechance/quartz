@@ -18,12 +18,12 @@ This increases the mental investment, and interaction with the ideas. It also ma
 - Can also look at problems, and try and reverse-engineer the applied concept — this has the same effect.
 - Focus on learning concepts as a big picture of the solution — abstraction is key, as details can be figured out later.
 
-	![focusingunconsciousmind1](Digital-Cottage/Resonance%20Journal/images/unconsciousmind1.png)
+	![focusingunconsciousmind1](Digital-Cottage/Resonance%20Journal/attachments/unconsciousmind1.png)
 	- This includes making insights and mental associations to existing ideas — research further if required to facilitate this.
 
 ### The process:
 
-![unconsciousmind2](Digital-Cottage/Resonance%20Journal/images/unconsciousmind2.png)
+![unconsciousmind2](Digital-Cottage/Resonance%20Journal/attachments/unconsciousmind2.png)
 
 1. Start with how it slots in the big picture. 
 2. Pick a detail to learn, and understand it both by itself, and within the big picture context. 

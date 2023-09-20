@@ -13,6 +13,7 @@ tags:
 - [[Digital-Cottage/Notes/Bash Basic Syntax Refresher|Bash Basic Syntax Refresher]]
 - [[Digital-Cottage/Notes/Bash Programming|Bash Programming]]
 - [[Digital-Cottage/Notes/bash-awk|bash-awk]]
+- [[Digital-Cottage/Notes/bash-find|bash-find]]
 - [[Digital-Cottage/Notes/bash-sed|bash-sed]]
 - [[Digital-Cottage/Notes/Clean Code|Clean Code]]
 - [[Digital-Cottage/Notes/Robert J. Oppenheimer|Robert J. Oppenheimer]]

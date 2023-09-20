@@ -10,7 +10,7 @@
 
 title: "Bash Basic Syntax"
 date: 2023-08-19T22:24
-enableToc: false
+enableToc: true
 tags:
 - bash
 - linux
@@ -311,4 +311,23 @@ input:
 output: 
 Local argument: LocalArgValue
 Argument from terminal: TerminalArgValue
+```
+- Note that this example is scoped within the same script, and doesn't take arguments from terminal. 
+
+#### Parameter and expansion
+The hash symbol `#` and the percent signs `
+
+1. `${variable#pattern}`
+    - When you use `${variable#pattern}`, it removes the shortest match of `pattern` from the beginning of the value stored in `variable`.
+
+2. `${variable
+    - When you use `${variable
+
+Here's a brief example to illustrate further:
+
+```sh
+text="Hello, World!" 
+
+echo ${text#Hello,}  # Outputs: " World!" 
+echo ${text%World!}  # Outputs: "Hello, "
 ```

@@ -22,3 +22,7 @@ Refreshing my knowledge, and building my own boilerplate cheatsheets:
 - [[Digital-Cottage/Notes/Bash Basic Syntax Refresher|Bash Basic Syntax Refresher]]
 - [[Digital-Cottage/Notes/bash-sed|bash-sed]]
 - [[Digital-Cottage/Notes/bash-awk|bash-awk]]
+- [[Digital-Cottage/Notes/bash-find]]
+- [[Digital-Cottage/Notes/bash-grep|bash-grep]]
+- [[Digital-Cottage/Notes/bash-find|bash-find]]
+- [[Digital-Cottage/Notes/bash-read|bash-read]] 

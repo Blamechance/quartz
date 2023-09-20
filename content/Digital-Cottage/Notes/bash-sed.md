@@ -10,7 +10,7 @@
 
 title: "bash-sed"
 date: 2023-08-19T22:23
-enableToc: false
+enableToc: true
 tags:
 - bash
 ---
@@ -41,26 +41,32 @@ cat report.txt | sed 's/Nick/John/g'
 
 # Quick Cheatsheet:
 
-| **Description**                                                   | **Sed Syntax**                         |
+| **Description**                                                | **Command Syntax**                         |
 | -------------------------------------------------------------- | -------------------------------------- |
 | Replace all occurrences of a pattern with a replacement string | `s/pattern/replacement/g`              |
 | Delete all lines that match a pattern                          | `/pattern/d`                           |
 | Print only the lines that match a pattern                      | `/pattern/p`                           |
 | Insert a line before or after the line that matches a pattern  | `i/pattern/text` or `a/pattern/text`   |
 | Append a line to the end of the file                           | `a text`                               |
-| Change the case of letters                                     | `s/[a-z]/[A-Z]/g` or `s/[A-Z]/[a-z]/g` |
-| Add a line break                                               | `\n`                                   |
+| Flag to have changes written to the file                                     | `-i` |
+| Delete characters that match pattern, for all lines                                                               | sed 's/[pattern]//g'                                        |
+| To have OR/AND operations, best to use `-e` flag to chain operations    |        sed -e '...' -e '...' file                            |
 
 # Deleting lines:
 This deletes lines from a file, without even needing to open it. 
 
 **Delete with pattern matching:**
 ```sh
-sed '/pattern/d' filename.txt'
+sed '/pattern/d' filename.txt
 ```
 
-**To delete the last line**: 
+**To delete the first or last line**: 
 ```sh
+#Delete first line: 
+sed -i '1d' filename
+
+
+#Delete last line:
 sed '$d' filename.txt
 ```
 

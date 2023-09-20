@@ -3,7 +3,7 @@ title: "Projects"
 date: 2023-07-26T22:53
 enableToc: false
 tags:
-- example-tag
+- MOC
 ---
 ### Napkin sketches, working products, and everything in between. 
 
