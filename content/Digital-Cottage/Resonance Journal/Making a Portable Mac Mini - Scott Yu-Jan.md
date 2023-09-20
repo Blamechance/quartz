@@ -17,7 +17,8 @@ tags:
 - design
 ---
 
-[YouTube Link.](https://www.youtube.com/watch?v=XFZ5l9SaIVw)
+
+![YouTube Link.](https://www.youtube.com/watch?v=XFZ5l9SaIVw)
 ![YouTube Link.](https://www.youtube.com/watch?v=KMO67C98eyc)
 
 3D printing seems like a low barrier to entry way to start experimenting with physical craftmanship. 

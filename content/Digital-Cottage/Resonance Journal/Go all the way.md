@@ -16,7 +16,7 @@ tags:
 - poem
 ---
 
-[YouTube Link.](https://youtu.be/rnfAVasBkQc)
+![YouTube Link.](https://youtu.be/rnfAVasBkQc)
 
 > If you're going to try, go all the way. Otherwise, don't even start. 
 > This could mean losing girlfriends, wives, relatives and maybe even your mind.
