@@ -19,8 +19,8 @@ tags:
 ---
 
 
-[YouTube Link](https://www.youtube.com/watch?v=jclr0N6mvUI)
-[Similar anecdote (lucas).](https://www.youtube.com/watch?v=qBC6VHhj64c)
+- [YouTube Link](https://www.youtube.com/watch?v=jclr0N6mvUI)
+- [Similar anecdote video](https://www.youtube.com/watch?v=qBC6VHhj64c)
 
 ### Takeaways: 
 1. Connect with the satisfaction that comes from coding, as the same satisfaction provided with gaming. 
