@@ -9,6 +9,7 @@ tags:
 
 
 
+- [[Digital-Cottage/Resonance Journal/BTS Anime Production - Studio Trigger (LWA)|BTS Anime Production - Studio Trigger (LWA)]]
 - [[Digital-Cottage/Resonance Journal/Dreams without goals are just dreams, and ultimately, they fuel disappointment|Dreams without goals are just dreams, and ultimately, they fuel disappointment]]
 - [[Digital-Cottage/Resonance Journal/Edsger Dijkstra - One-Day Workweek|Edsger Dijkstra - One-Day Workweek]]
 - [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)]]
