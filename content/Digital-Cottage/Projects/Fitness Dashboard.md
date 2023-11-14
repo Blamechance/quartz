@@ -32,27 +32,18 @@ I'm currently plugging away at the working prototype [here](https://github.com/B
 
 ### Project Tracking:
 
-<br>
-
-| Task                                                                                          |     Status     | Description                                                                                                                           |
-|:--------------------------------------------------------------------------------------------- |:--------------:| ------------------------------------------------------------------------------------------------------------------------------------- |
-| Add user log-in functionality                                                                 | ⚪ Not Started |                                                                                                                                       |
-| Add better storage/archive of processed data                                                  | ⚪ Not Started | Could back up provided CSV, processed JSON etc.. as long as it's saved somewhere other than local to server and time stamped to user. |
-| Break server side functions into [Clean Code](/Digital-Cottage/Notes/Clean%20Code) principles | ⚪ Not Started |                                                                                                                                       |
-| Host project on AWS                                                                           |   🚧 On Hold   | Acquired AWS:SA Associate certificate. Completing project before migrating to cloud.                                                                                |
-
-<br>
-
-| Task                                                          |     Status     | Description                                |
-|:------------------------------------------------------------- |:--------------:| ------------------------------------------ |
-| Create logic functions to process CSV to JSON (training data) | ⚙️ In Progress |                                            |
-| Create logic functions to process CSV to JSON (weight data)   | ✅ Completed   |                                            |
-| Client side asynchronous CSV submit button                    | ✅ Completed   |                                            |
-| athlete/user page with skeleton structure for populating      | ✅ Completed   |                             |
-| Chart.js Graphs for plotting data                             | ✅ Completed   | Created custom logic to scale graph axis from current epoch time, would've been easier to use Bolton library... |
-| Nav bar                                                       | ✅ Completed   | Adapted bootstrap.                         |
-| HTML Layout Skeletons                                         | ✅ Completed   |         |
-| Set-up repo + flask environment                               | ✅ Completed   | Need to test in different / cloned repo environments.                                            |
+| Task                                                          |     Status     | Description                                                                                                     |
+|:------------------------------------------------------------- |:--------------:| --------------------------------------------------------------------------------------------------------------- |
+| Break monolithic code into blueprints                         | ⚙️ In Progress |                                                                                                                 |
+| Add user sign-in/register functionality with SQL table        | ⚙️ In Progress |                                                                                                                 |
+| Create logic functions to process CSV to JSON (training data) |  ✅ Completed  |                                                                                                                 |
+| Create logic functions to process CSV to JSON (weight data)   |  ✅ Completed  |                                                                                                                 |
+| Client side asynchronous CSV submit button                    |  ✅ Completed  |                                                                                                                 |
+| athlete/user page with skeleton structure for populating      |  ✅ Completed  |                                                                                                                 |
+| Chart.js Graphs for plotting data                             |  ✅ Completed  | Created custom logic to scale graph axis from current epoch time, would've been easier to use Bolton library... |
+| Nav bar                                                       |  ✅ Completed  | Adapted bootstrap.                                                                                              |
+| HTML Layout Skeletons                                         |  ✅ Completed  |                                                                                                                 |
+| Set-up repo + flask environment                               |  ✅ Completed  | Need to test in different / cloned repo environments.                                                           |
 
 Table Key: ⚪ Not Started, ⚙️ In Progress, 🚧 On Hold, ✅ Completed 
 

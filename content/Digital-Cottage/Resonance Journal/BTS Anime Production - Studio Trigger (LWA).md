@@ -15,7 +15,7 @@ tags:
 - resonance-journal
 ---
 
-![YouTube Link.](https://www.youtube.com/watch?v=7LgHOUTZ8Gc&list=LL&index=2&t=131s)
+[YouTube Link.](https://www.youtube.com/watch?v=7LgHOUTZ8Gc&list=LL&index=2&t=131s)
 
 Basically: 
 "**Depression: the documentary.** "
