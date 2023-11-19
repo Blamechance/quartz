@@ -3,7 +3,6 @@ title: Shit rentals and the value of a social media following
 date: 2023-10-03T11:18
 enableToc: false
 tags:
-  - example-tag
   - Creation
   - youtube
 ---
