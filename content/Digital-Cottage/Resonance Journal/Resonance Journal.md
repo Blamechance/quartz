@@ -15,7 +15,6 @@ tags:
 - [[Digital-Cottage/Resonance Journal/Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)|Focusing Your Unconscious Mind - Learn Hard Concepts Intuitively (And Forever)]]
 - [[Digital-Cottage/Resonance Journal/Go all the way|Go all the way]]
 - [[Digital-Cottage/Resonance Journal/HiddenBrain - Strategies Against Ruts And Stuckness|HiddenBrain - Strategies Against Ruts And Stuckness]]
-- [[Digital-Cottage/Resonance Journal/How To Get Started - The Cult of Done|How To Get Started - The Cult of Done]]
 - [[Digital-Cottage/Resonance Journal/Jony Ivy - The Man behind Apple Design|Jony Ivy - The Man behind Apple Design]]
 - [[Digital-Cottage/Resonance Journal/Life Advice From Bjarne Stroustrup|Life Advice From Bjarne Stroustrup]]
 - [[Digital-Cottage/Resonance Journal/Making a Portable Mac Mini - Scott Yu-Jan|Making a Portable Mac Mini - Scott Yu-Jan]]

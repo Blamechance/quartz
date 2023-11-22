@@ -19,6 +19,7 @@ tags:
 Skimming and pulling creating notes for TILs: 
 - [Bash Scripting Tutorial for Beginners (FreeCodeCamp Video)](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
 - [Google Style Guide](https://google.github.io/styleguide/shellguide.html)
+- https://linuxcommand.org/lc3_writing_shell_scripts.php
 
 --- 
 ### Hello World Scripting

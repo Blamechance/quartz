@@ -1,25 +1,18 @@
 ---
-# 1. Add tags
-# 2. Add title
-
-# Note: Avoid using 
-# i. Special characters (like dashes and speech marks) for note title. 
-# ii. Ending in puncutations for  yaml title.  
-
-# Backlinks will populate with waypoint page, to MOC. 
-
-title: "How To Get Started - The Cult of Done"
+title: How To Get Started - The Cult of Done
 date: 2023-11-19T15:08
 enableToc: false
 tags:
-- resonance-journal
-- Creation
-- Productivity
+  - Creation
+  - Productivity
 ---
 Introduced to the concept by No Boilerplate, who frames it with his own perspective and presents it very well ([link](https://www.youtube.com/watch?v=bJQj1uKtnus)). The original medium post is [here](https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13). 
 
-The key concepts and emphasis on movement and starting is useful, though definitely flawed if taken literally to every scenario. It seems the wisdom in the advice is best suited to those biased towards unhealthy perfectionism, and to the starting of projects. 
+The key concepts and emphasis on movement and starting is useful, though definitely flawed if taken literally to every scenario. It seems the wisdom in the advice is best suited to those biased towards unhealthy perfectionism, and to those who struggle with the friction in starting projects. 
 
+I find myself to naturally veer towards both those issues, and so find the ideas here refreshingly eloquent. From this, I'm provided the utility of being able to borrow the extreme perspective as a heuristic that helps balance the pedantic part of my personality. 
+
+![Poster shared on Reddit.](https://preview.redd.it/a-cool-guide-to-the-cult-of-done-v0-moxnauo3r7qb1.png?auto=webp&s=f190a4e5bdaf0c68c18e0e88c1f63c629f9dd268)
 ## The Cult of Done Manifesto
 
 **1. There are three states of being. Not knowing, action and completion.**
@@ -30,7 +23,7 @@ The key concepts and emphasis on movement and starting is useful, though definit
 **2. Accept that everything is a draft. It helps to get it done.**
 - Quick sketches or prototypes can make production and final drafts. 
 
-> 	"*I'm doing a (free) operating system (just a hobby, won't be big and professionl like gnu)."*
+> 	"*I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)."*
 > 	- **Linus Torvalds**, at age 21, changing the world. 
 	
 **3. There is no editing stage.**
