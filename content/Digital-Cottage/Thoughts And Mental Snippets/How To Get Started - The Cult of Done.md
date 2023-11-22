@@ -12,7 +12,7 @@ The key concepts and emphasis on movement and starting is useful, though definit
 
 I find myself to naturally veer towards both those issues, and so find the ideas here refreshingly eloquent. From this, I'm provided the utility of being able to borrow the extreme perspective as a heuristic that helps balance the pedantic part of my personality. 
 
-![Poster shared on Reddit.](https://preview.redd.it/a-cool-guide-to-the-cult-of-done-v0-moxnauo3r7qb1.png?auto=webp&s=f190a4e5bdaf0c68c18e0e88c1f63c629f9dd268)
+![cult-of-done-reddit](Digital-Cottage/Thoughts%20And%20Mental%20Snippets/attachments/cultofdone.png)
 ## The Cult of Done Manifesto
 
 **1. There are three states of being. Not knowing, action and completion.**
@@ -47,7 +47,7 @@ I find myself to naturally veer towards both those issues, and so find the ideas
 **8. ==Laugh at perfection. It’s boring and keeps you from being done. ==**
 	
 **9. People without dirty hands are wrong. Doing something makes you right.**
-- Don't allow people with uneducated opinions to sway your beliefs. 
+- Don't allow people with uneducated perspectives to sway your beliefs. 
 - Rather, place more value on the input of those who are where you want to be, or have done what you want to achieve. 
 - Particularly so, if they have proven experience in repeating this success, and guiding others to this exact success. 
 	
