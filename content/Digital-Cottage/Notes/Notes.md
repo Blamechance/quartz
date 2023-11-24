@@ -17,6 +17,7 @@ tags:
 - [[Digital-Cottage/Notes/bash-sed|bash-sed]]
 - [[Digital-Cottage/Notes/Clean Code|Clean Code]]
 - [[Digital-Cottage/Notes/Robert J. Oppenheimer|Robert J. Oppenheimer]]
+- [[Digital-Cottage/Notes/Setting up AWS sub-account structure for projects|Setting up AWS sub-account structure for projects]]
 - [[Digital-Cottage/Notes/Socrates|Socrates]]
 
 
