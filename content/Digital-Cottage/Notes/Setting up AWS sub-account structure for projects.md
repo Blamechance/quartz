@@ -20,8 +20,6 @@ tags:
 > This provides temporary credentials for access for a role, instead of for IAM users. 
 > [Read more here](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html). 
 
-/
-
 
 When creating a new AWS account, there are several best practices that should be applied before you start building: 
 1. Configure MFA. 
