@@ -10,7 +10,7 @@
 
 title: "Setting up AWS sub-account structure for projects"
 date: 2023-11-24T09:24
-enableToc: false
+enableToc: true
 tags:
 - AWS
 ---
@@ -20,7 +20,7 @@ tags:
 > This provides temporary credentials for access for a role, instead of for IAM users. 
 > [Read more here](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html). 
 
-
+/
 
 
 When creating a new AWS account, there are several best practices that should be applied before you start building: 
@@ -67,7 +67,7 @@ This is the account to use from now on, unless organisation changes need to be m
 ## 3. Creating an OU/sub-account for different projects
 In essence, there should be a single management account serving to consolidate all sub-accounts. Under that, there will be a projects OU, with further sub-OUs to house each specific project, such as below: 
 
-![[Digital-Cottage/Notes/Private/attachments/AWS Projects Accounts.png|Private/attachments/AWS Projects Accounts.png]]
+![](Digital-Cottage/Resonance%20Journal/attachments/AWS%20Projects%20Accounts.png)
 
 1. Navigate to AWS Organisations and click on **"Add an AWS account**". 
 2. Create a new account filling in a separate email address
@@ -129,7 +129,7 @@ The worker user should have access to assume both roles now, and this can conven
 4. Enter the role name under "Role". 
 5. The display name and colour are up to your preference. 
 6. Click switch role. Switched roles will be shown in the top-right menu for future convenience. 
-![[Digital-Cottage/Notes/Private/attachments/Setting up AWS sub-account structure for projects.png|Private/attachments/Setting up AWS sub-account structure for projects.png]]
+![](Digital-Cottage/Resonance%20Journal/attachments/Setting%20up%20AWS%20sub-account%20structure%20for%20projects.png)
 
 
 
