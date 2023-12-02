@@ -23,29 +23,66 @@ Some key ideas:
 - Potentially integrate with a discord webhook, for frictionless user experience within the same platform that our discussion tend to take place.
 	- Output after check-in could also be sent to the discord channel as a webhook response, to share with everyone else. 
 
-## Development: 
-The intention is for a simple full-stack web-app consisting of Python, HTML/CSS and some lightweight Javascript.
+# Development: 
 
-It's a project with simple intention, but should spur a lot of learning along the way -- more than anything though, I'm excited to create a complete product with real use-case. 
+## Misc. Dev Backlog items: 
 
-I'm currently plugging away at the working prototype [here](https://github.com/Blamechance/fitness-dashboard)!
+| Task                                                    | Status         | Description |
+| ------------------------------------------------------- | -------------- | ----------- |
+| Implement TDEE calculator                               | ⚪ Not Started |             |
+| Add feature to allow users to delete their account/data | ⚪ Not Started |             |
+|                                                         |                |             |
+|                                                         |                |             |
 
-### Project Tracking:
+Table Key: ⚪ Not Started, ⚙️ In Progress, 🚧 On Hold, ✅ Completed
 
-| Task                                                          |     Status     | Description                                                                                                     |
-|:------------------------------------------------------------- |:--------------:| --------------------------------------------------------------------------------------------------------------- |
-| Break monolithic code into blueprints                         | ⚙️ In Progress |                                                                                                                 |
-| Add user sign-in/register functionality with SQL table        | ⚙️ In Progress |                                                                                                                 |
-| Create logic functions to process CSV to JSON (training data) |  ✅ Completed  |                                                                                                                 |
-| Create logic functions to process CSV to JSON (weight data)   |  ✅ Completed  |                                                                                                                 |
-| Client side asynchronous CSV submit button                    |  ✅ Completed  |                                                                                                                 |
-| athlete/user page with skeleton structure for populating      |  ✅ Completed  |                                                                                                                 |
-| Chart.js Graphs for plotting data                             |  ✅ Completed  | Created custom logic to scale graph axis from current epoch time, would've been easier to use Bolton library... |
-| Nav bar                                                       |  ✅ Completed  | Adapted bootstrap.                                                                                              |
-| HTML Layout Skeletons                                         |  ✅ Completed  |                                                                                                                 |
-| Set-up repo + flask environment                               |  ✅ Completed  | Need to test in different / cloned repo environments.                                                           |
+# Project Tracking:
 
-Table Key: ⚪ Not Started, ⚙️ In Progress, 🚧 On Hold, ✅ Completed 
+# V1:
+The target for this iteration is to have a functional working proof of concept. 
+
+[ x ] Create the flask web app structure, complete with HTML pages/layouts. 
+[ x ] Apply Bootstrap + CSS for out the box presentability. 
+[ x ]  Find minimal libraries to represent CSV data and graphs/charts
+- (tabulator + charts.js). 
+[ x ] Implement a user account system. 
+[ x ] Implement the first iteration of the app:
+	[ x ] Allow user uploads for server processing. 
+	[ x ]  Create basic functionality of processing fitnotes export files for JSON output, utilising pandas/CSV parsing. 
+	[ x ] Charts.js rendering from JSON. 
+	[ x ] tabulator rendering from JSON. 
 
 
-#### TIL Thoughts:
+# V2:
+[ x ] Test hosting in a bootstrapped micro EC2 instance. Make sure it's features work online, and there aren't dependency/OS incompatibilities. 
+	Some library issues identified and worked through, while `pip` installing from `requirements.txt`: 
+	-  pycairo, gobject, python3 system-d needed to be manually installed to allow progress. 
+	- `distro` needed to be changed to ver 1.6.0 due to conflicts with `aws-cli`. 
+
+[  ]  Implement within a better thought out AWS architecture, with emphasis on security and best practices. 
+	- [[Digital-Cottage/Projects/Fitness Dashboard Dev|Fitness Dashboard Dev]]
+[  ] Configure with Terraform to enable convenient spinning up and down of the web app. 
+[  ] Integrate S3 as storage for the app. 
+
+#### NTS: 
+- A serverless design with Lambda was considered, but current app design makes use of session data for users functionality. Also, cold starts to lambda might make the experience lacklustre. 
+
+### Potential Security Vulnerabilities to consider: 
+##### Unwanted Traffic: 
+Currently, I do not utilise any services that might accrue extra charges in the result of unintended/DDOS traffic. The users who I would be sharing this to, and who would actually use it can be counted on one hand. 
+
+**Action:**
+- Implement cloudwatch alarms that track resource utilisations. 
+- Set a reminder to swap from T3.Micro to a spot instance after close to a year lol. 
+##### Potential Attacks / Exploitation:
+I've designed the app to be relatively stateless; this means all user data can be quickly produced anytime they submit their Fitnotes file (no functionality for changes to data server side -- all changes should be made within the app). 
+
+**Action:**
+- If ever choosing to implement real data such as emails etc, utilise better controls such as RDS instead of the SQLite db. 
+- Don't implement any form of user *download* functionality, just in case it's ever compromised. Keep the project as a way to receive and represent user given data.  
+- I don't think it's worth justifying paying for **NAT Gateways** or **NLBs** yet, so I'll do the less tasteful decision to host my EC2 instance in a public subnet for now. 
+	- In future, once I've got more apps to show I can obsfucate them all behind a single NLB -- especially when security is a higher concern. Currently though, **there's no real user data to be compromised**
+	- Something like the following... 
+		![[Digital-Cottage/Projects/calendar-notes/daily-notes/2023/Dec/attachments/aws.drawio.png|calendar-notes/daily-notes/2023/Dec/attachments/aws.drawio.png]]
+# V3: 
+[  ] Integrate the app's CI with gitlab pipeline, so further updates will build to the live site. 

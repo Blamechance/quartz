@@ -136,7 +136,7 @@ The worker user should have access to assume both roles now, and this can conven
 
 ---
 ##### Resources: 
-- https://docs.aws.amazonA.com/singlesignon/latest/userguide/mfa-configure.html
+- https://docs.aws.amazon.com/singlesignon/latest/userguide/mfa-configure.html
 - https://docs.aws.amazon.com/streams/latest/dev/setting-up.html
 - https://www.youtube.com/watch?v=zVJnenaD3U8
 - https://mim-armand.medium.com/steps-to-create-an-aws-sub-accounts-free-tier-2268b17c9f7
