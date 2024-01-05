@@ -83,6 +83,6 @@ I've designed the app to be relatively stateless; this means all user data can b
 - I don't think it's worth justifying paying for **NAT Gateways** or **NLBs** yet, so I'll do the less tasteful decision to host my EC2 instance in a public subnet for now. 
 	- In future, once I've got more apps to show I can obsfucate them all behind a single NLB -- especially when security is a higher concern. Currently though, **there's no real user data to be compromised**
 	- Something like the following... 
-		![[Digital-Cottage/Projects/calendar-notes/daily-notes/2023/Dec/attachments/aws.drawio.png|calendar-notes/daily-notes/2023/Dec/attachments/aws.drawio.png]]
+		![[Digital-Cottage/Projects/attachments/aws.drawio.png]]
 # V3: 
 ⬜ Integrate the app's CI with gitlab pipeline, so further updates will build to the live site. 
