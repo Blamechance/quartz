@@ -45,7 +45,11 @@ Although digital tools provide a much quicker way to get thoughts down, this qui
 By starting with analogue planning, and migrating those plans to our digital tools, I feel there's a great case for a well-rounded, balanced organisation system that makes use of our tools more intentionally; rather than succumbing to transcribing all mental noise as quick as possible to our tools, simply because we can.  
 
 ## Templates
+The weekly journal allows a glance of the week, and a reflection space to see how I can improve and set next week up for success. 
+
+If you use the periodic notes/calendar plug-in, you can set-up these templates to generate on clicking dates. I've set-up a separate vault for this, and it's been very effective so far. 
+
 Here's the markdown templates I use,  in case it's useful to you:
-[[Digital-Cottage/Thoughts And Mental Snippets/Daily Journal Template 2024|Daily Journal Template 2024]]
-[[Digital-Cottage/Thoughts And Mental Snippets/Weekly Journal Template 2024|Weekly Journal Template 2024]]
-- The weekly journal allows a glance of the week, and a reflection space to see how I can improve and set next week up for success. 
+- [[Digital-Cottage/Thoughts And Mental Snippets/Daily Journal Template 2024|Daily Journal Template 2024]]
+- [[Digital-Cottage/Thoughts And Mental Snippets/Weekly Journal Template 2024|Weekly Journal Template 2024]]
+

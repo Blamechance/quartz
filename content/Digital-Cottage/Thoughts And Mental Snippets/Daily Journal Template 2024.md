@@ -7,7 +7,7 @@ tags:
 ---
 # Daily Journal - {{date: dddd, DD MMM YYYY}}
 
->[!quote]  Mission Statement
+>[!quote]  
 >I created a mission statement here after reading [[Digital-Cottage/Books/The 7 Habits of Highly Effective People - Covey|The 7 Habits of Highly Effective People - Covey]]. It sits here to guide review, and whether I acted honest to it and thus, the values important to me. 
 >
 >
