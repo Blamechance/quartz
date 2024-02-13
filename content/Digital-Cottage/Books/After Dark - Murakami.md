@@ -1,9 +1,10 @@
 ---
 kindle-sync:
-  bookId: '9943'
+  bookId: "9943"
   title: After Dark
   author: Haruki Murakami
   highlightsCount: 3
+title: After Dark - Murakami
 ---
 
 # After Dark - Murakami

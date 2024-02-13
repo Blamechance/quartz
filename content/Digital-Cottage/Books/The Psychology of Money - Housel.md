@@ -1,9 +1,10 @@
 ---
 kindle-sync:
-  bookId: '20304'
-  title: 'The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness'
+  bookId: "20304"
+  title: "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness"
   author: Morgan Housel
   highlightsCount: 18
+title: The Psychology of Money - Housel
 ---
 
 # The Psychology of Money - Morgan Housel

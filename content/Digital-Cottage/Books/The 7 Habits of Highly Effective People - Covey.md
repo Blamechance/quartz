@@ -1,9 +1,10 @@
 ---
 kindle-sync:
-  bookId: '30033'
+  bookId: "30033"
   title: The 7 Habits of Highly Effective People
   author: Stephen R. Covey
   highlightsCount: 37
+title: The 7 Habits of Highly Effective People - Covey
 ---
 # The 7 Habits of Highly Effective People - Stephen R. Covey
 

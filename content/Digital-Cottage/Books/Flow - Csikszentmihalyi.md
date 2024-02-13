@@ -1,9 +1,10 @@
 ---
 kindle-sync:
-  bookId: '13753'
+  bookId: "13753"
   title: Flow
   author: Mihaly Csikszentmihalyi
   highlightsCount: 10
+title: Flow - Csikszentmihalyi
 ---
 # Flow - Mihaly Csikszentmihalyi
 

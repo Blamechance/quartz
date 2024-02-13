@@ -1,11 +1,10 @@
 ---
 kindle-sync:
-  bookId: '23889'
-  title: >-
-    The Defining Decade: Why Your Twenties Matter--And How to Make the Most of
-    Them Now
-  author: 'Jay, Meg'
+  bookId: "23889"
+  title: "The Defining Decade: Why Your Twenties Matter--And How to Make the Most of Them Now"
+  author: Jay, Meg
   highlightsCount: 1
+title: The Defining Decade - Jay
 ---
 # The Defining Decade - Meg Jay
 

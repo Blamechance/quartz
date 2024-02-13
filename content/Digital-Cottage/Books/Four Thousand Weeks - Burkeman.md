@@ -1,9 +1,10 @@
 ---
 kindle-sync:
-  bookId: '32866'
-  title: 'Four Thousand Weeks: Time Management for Mortals'
+  bookId: "32866"
+  title: "Four Thousand Weeks: Time Management for Mortals"
   author: Oliver Burkeman
   highlightsCount: 11
+title: Four Thousand Weeks - Burkeman
 ---
 # Four Thousand Weeks - Oliver Burkeman
 # Notes:
