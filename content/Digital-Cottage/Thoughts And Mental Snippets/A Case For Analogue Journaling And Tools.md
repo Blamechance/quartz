@@ -53,3 +53,7 @@ Here's the markdown templates I use,  in case it's useful to you:
 - [[Digital-Cottage/Thoughts And Mental Snippets/Daily Journal Template 2024|Daily Journal Template 2024]]
 - [[Digital-Cottage/Thoughts And Mental Snippets/Weekly Journal Template 2024|Weekly Journal Template 2024]]
 
+### Related: 
+- There's a quote in [[Digital-Cottage/Books/The Psychology of Money - Housel|The Psychology of Money - Housel]] that speaks of a similar anecdote of "pouring out the bad" with a workflow similar to morning pages; but for writing songs. It refers to getting rid of the waste product that precedes the high value output. 
+	- [[Digital-Cottage/Thoughts And Mental Snippets/Pareto Principle|Pareto Principle]] 
+- In the book 4000 weeks, a compelling case against the "efficiency trap" of the modern day. It argues that the modern society stance on productivity is a trap which instead, leads us to be less effective than ever. 
