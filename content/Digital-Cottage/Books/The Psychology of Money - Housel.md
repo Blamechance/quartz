@@ -5,6 +5,8 @@ kindle-sync:
   author: Morgan Housel
   highlightsCount: 18
 ---
+
+# The Psychology of Money - Morgan Housel
 # Notes:
 
 ---

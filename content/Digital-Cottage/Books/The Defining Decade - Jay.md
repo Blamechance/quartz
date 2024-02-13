@@ -7,6 +7,8 @@ kindle-sync:
   author: 'Jay, Meg'
   highlightsCount: 1
 ---
+# The Defining Decade - Meg Jay
+
 # Notes:
 
 ---

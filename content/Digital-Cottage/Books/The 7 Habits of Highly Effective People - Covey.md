@@ -5,6 +5,8 @@ kindle-sync:
   author: Stephen R. Covey
   highlightsCount: 37
 ---
+# The 7 Habits of Highly Effective People - Stephen R. Covey
+
 # Notes:
 
 ---

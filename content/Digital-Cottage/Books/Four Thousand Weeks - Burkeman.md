@@ -5,6 +5,7 @@ kindle-sync:
   author: Oliver Burkeman
   highlightsCount: 11
 ---
+# Four Thousand Weeks - Oliver Burkeman
 # Notes:
 - Productivity is a trap. It provides a false narrative that doing things quicker, and thus more of it, results in *better results*. 
 ---
