@@ -6,7 +6,7 @@
   is a collection of pages.
   https://gohugo.io/content-management/related/
   -->
-  <!-- {{- $excludeTitles := slice "Notes" "Books" "Projects" "Resonance Journal" "Thoughts And Mental Snippets" -}}
+  {{- $excludeTitles := slice "Notes" "Books" "Projects" "Resonance Journal" "Thoughts And Mental Snippets" -}}
   {{$notes := .Site.RegularPages.ByLastmod.Reverse}}
   
   {{- $filteredNotes := slice -}}
@@ -16,7 +16,6 @@
     {{- end -}}
   {{- end -}}
 
-  {{partial "page-list.html" (first 5 $filteredNotes)}} -->
-  {{$notes := .Site.RegularPages}}
-  {{partial "page-list.html" (first 10 $notes)}}
+  {{partial "page-list.html" (first 5 $filteredNotes)}}
+
 </div>
