@@ -16,8 +16,10 @@ tags:
 - [[Digital-Cottage/Notes/bash-find|bash-find]]
 - [[Digital-Cottage/Notes/bash-sed|bash-sed]]
 - [[Digital-Cottage/Notes/Clean Code|Clean Code]]
+- [[Digital-Cottage/Notes/pipenv|pipenv]]
 - [[Digital-Cottage/Notes/Robert J. Oppenheimer|Robert J. Oppenheimer]]
 - [[Digital-Cottage/Notes/Setting up AWS sub-account structure for projects|Setting up AWS sub-account structure for projects]]
+- [[Digital-Cottage/Notes/Setting up Flask Web App serving from EC2 Instance|Setting up Flask Web App serving from EC2 Instance]]
 - [[Digital-Cottage/Notes/Setting up SSH to EC2 Instances|Setting up SSH to EC2 Instances]]
 - [[Digital-Cottage/Notes/Socrates|Socrates]]
 
