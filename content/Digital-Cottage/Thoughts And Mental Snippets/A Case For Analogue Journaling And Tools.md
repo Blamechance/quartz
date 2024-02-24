@@ -22,8 +22,8 @@ The slowness and intentional nature of physical writing pulls at the loose, floa
 - If that is the case, then the thoughts won't make pass the slow and intentional filters of physical writing, as it fails to be articulated, and hence filter itself away as unimportant *mental noise*. 
 
 - Otherwise, if these threads are found to be *genuinely significant* thoughts, then the same filters will  prevent the unintelligibly crowding of thoughts (*pronounced over-thinking*), instead articulating only your most logical thoughts through writing. 
+![mental-noise.png](Digital-Cottage/Thoughts%20And%20Mental%20Snippets/attachments/mental-noise.png)
 
-![[Digital-Cottage/Thoughts And Mental Snippets/attachments/mental-noise.png]]
 
 The result is that morning pages will often **only reveal what is substantial, relevant and worth noting.** Mental noise is instead replaced with an assurance that any thought that might've attracted your attention, is surely irrelevant, hence removing it's power from pulling you into infinite directions. 
 
