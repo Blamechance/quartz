@@ -23,22 +23,22 @@ Some key ideas:
 - Potentially integrate with a discord webhook, for frictionless user experience within the same platform that our discussion tend to take place.
 	- Output after check-in could also be sent to the discord channel as a webhook response, to share with everyone else. 
 
-# Development: 
+# Development/Feature Backlog: 
 
 ## Misc. Dev Backlog items: 
+table
 
-| Task                                                    | Status         | Description |
-| ------------------------------------------------------- | -------------- | ----------- |
-| Implement TDEE calculator                               | ⬜ Not Started |             |
-| Add feature to allow users to delete their account/data | ⬜ Not Started |             |
-|                                                         |                |             |
-|                                                         |                |             |
-
+| Task                                                                        | Status |
+| --------------------------------------------------------------------------- | ------ |
+| Implement TDEE calculator                                                   | ⬜      |
+| Add feature to allow users to delete their account/data                     | ⬜      |
+| Add a page to display user data across all accounts                         |        |
+| Integrate a dev pipeline to allow live build/update to site of new features |        |
 Table Key: ⬜ Not Started, ⚙️ In Progress, 🚧 On Hold, ✅ Completed
 
 # Project Tracking:
 
-# V1:
+## Ver 1.0 - Creating Flask App Basic Functionality:
 The target for this iteration is to have a functional working proof of concept. 
 
 - ✅  Create the flask web app structure, complete with HTML pages/layouts. 
@@ -48,33 +48,27 @@ The target for this iteration is to have a functional working proof of concept.
 - ✅  Implement a user account system. 
 - ✅  Implement the first iteration of the app:
 	- ✅  Allow user uploads for server processing. 
-	- ✅   Create basic functionality of processing fitnotes export files for JSON output, utilising pandas/CSV parsing. 
+	- ✅   Create basic functionality of processing fitnotes export files for JSON output, utilising `pandas` for `.csv` parsing. 
 	- ✅  Charts.js rendering from JSON. 
 	- ✅  tabulator rendering from JSON. 
 
 
-# V2:
-- ✅  Test hosting in a bootstrapped micro EC2 instance. Make sure it's features work online, and there aren't dependency/OS incompatibilities. 
-	Some library issues identified and worked through, while `pip` installing from `requirements.txt`: 
-	-  pycairo, gobject, python3 system-d needed to be manually installed to allow progress. 
-	- `distro` needed to be changed to ver 1.6.0 due to conflicts with `aws-cli`. 
+## Ver 1.1 - Hosting The App Online:
+The Tl;DR of it is that I went with a AWS Free Tier Ubuntu 20.04 instance, hosting it on my domain managed with CloudFlare. 
 
-- ⬜ Implement within a better thought out AWS architecture, with emphasis on security and best practices. 
-	- [[Digital-Cottage/Projects/Fitness Dashboard Dev|Fitness Dashboard Dev]]
-- ⬜ Configure with Terraform to enable convenient spinning up and down of the web app. 
-- ⬜ Integrate S3 as storage for the app. 
+It's accessible [here](https://fitness-dashboard.tcao.dev/login)!
 
-#### NTS: 
-- A serverless design with Lambda was considered, but current app design makes use of session data for users functionality. Also, cold starts to lambda might make the experience lacklustre. 
+- [[Digital-Cottage/Notes/Setting Up AWS Sub-Account Structure For Projects|Setting Up AWS Sub-Account Structure For Projects]]
+- [[Digital-Cottage/Notes/Serving a Flask Web App using an AWS EC2 Ubuntu Instance|Serving a Flask Web App using an AWS EC2 Ubuntu Instance]]
 
-### Potential Security Vulnerabilities to consider: 
-##### Unwanted Traffic: 
+### Notes And Considerations Over Architecture: 
+#### Unwanted Traffic: 
 Currently, I do not utilise any services that might accrue extra charges in the result of unintended/DDOS traffic. The users who I would be sharing this to, and who would actually use it can be counted on one hand. 
 
 **Action:**
 - Implement cloudwatch alarms that track resource utilisations. 
 - Set a reminder to swap from T3.Micro to a spot instance after close to a year lol. 
-##### Potential Attacks / Exploitation:
+#### Potential Attacks / Exploitation:
 I've designed the app to be relatively stateless; this means all user data can be quickly produced anytime they submit their Fitnotes file (no functionality for changes to data server side -- all changes should be made within the app). 
 
 **Action:**
@@ -84,5 +78,7 @@ I've designed the app to be relatively stateless; this means all user data can b
 	- In future, once I've got more apps to show I can obsfucate them all behind a single NLB -- especially when security is a higher concern. Currently though, **there's no real user data to be compromised**
 	- Something like the following... 
 		![[Digital-Cottage/Projects/attachments/aws.drawio.png]]
+#### Considering Serverless:
+A serverless design with Lambda was considered, but current app design makes use of session data for users functionality. Also, cold starts to lambda might make the experience lacklustre. 
 # V3: 
 ⬜ Integrate the app's CI with gitlab pipeline, so further updates will build to the live site. 

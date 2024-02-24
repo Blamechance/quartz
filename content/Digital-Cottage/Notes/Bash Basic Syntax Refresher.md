@@ -30,6 +30,11 @@ A shebang (`#!) declaration is required, so that the system knows what program/s
 #! /bin/bash
 ```
 
+To check version on debian/ubuntu/pop:
+```sh
+lsb_release -a
+```
+
 What permission change is required of bash script files to allow it's functionality? Explain the octal permission system and the common argument for sharing a script. 
 ?
 Bash scripts need to have it's permission set to `executable` for the relevant principal executing. 
@@ -332,3 +337,10 @@ text="Hello, World!"
 echo ${text#Hello,}  # Outputs: " World!" 
 echo ${text%World!}  # Outputs: "Hello, "
 ```
+#### Compressing a folder: 
+```
+tar -czvf archive_name.tar.gz directory_name
+```
+- `-c`: Create a new archive.
+- `-z`: Compress the archive using gzip.
+- `-v`: Verbose mode, which displays the files being added to the archive.
