@@ -8,7 +8,6 @@ tags:
 - HTML
 - CSS
 ---
-[Link to repo.](https://github.com/Blamechance/fitness-dashboard)
 # Concept: 
 My friends and I are big fans of a simple gym-tracking app that serves to replace a simple notebook and pen, called "FitNotes". 
 
@@ -23,10 +22,16 @@ Some key ideas:
 - Potentially integrate with a discord webhook, for frictionless user experience within the same platform that our discussion tend to take place.
 	- Output after check-in could also be sent to the discord channel as a webhook response, to share with everyone else. 
 
+# Links:
+The github repository is [here](https://github.com/Blamechance/fitness-dashboard). 
+A copy of the `README.md` is [[Digital-Cottage/Notes/Fitness Dashboard README|here.]]
+
+Here's a quick video walk-through: 
+![Youtube Link.](https://youtu.be/Np4lORlm-Y0)
+
 # Development/Feature Backlog: 
 
 ## Misc. Dev Backlog items: 
-table
 
 | Task                                                                        | Status |
 | --------------------------------------------------------------------------- | ------ |
@@ -59,7 +64,7 @@ The Tl;DR of it is that I went with a AWS Free Tier Ubuntu 20.04 instance, hosti
 It's accessible [here](https://fitness-dashboard.tcao.dev/login)!
 
 - [[Digital-Cottage/Notes/Setting Up AWS Sub-Account Structure For Projects|Setting Up AWS Sub-Account Structure For Projects]]
-- [[Digital-Cottage/Notes/Serving a Flask Web App using an AWS EC2 Ubuntu Instance|Serving a Flask Web App using an AWS EC2 Ubuntu Instance]]
+- [[Digital-Cottage/Notes/Serving a Flask Web App on AWS using Gunicorn And Nginx|Serving a Flask Web App on AWS using Gunicorn And Nginx]]
 
 ### Notes And Considerations Over Architecture: 
 #### Unwanted Traffic: 
@@ -82,3 +87,5 @@ I've designed the app to be relatively stateless; this means all user data can b
 A serverless design with Lambda was considered, but current app design makes use of session data for users functionality. Also, cold starts to lambda might make the experience lacklustre. 
 # V3: 
 ⬜ Integrate the app's CI with gitlab pipeline, so further updates will build to the live site. 
+
+

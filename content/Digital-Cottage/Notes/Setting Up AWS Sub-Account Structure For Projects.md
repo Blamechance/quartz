@@ -1,18 +1,9 @@
 ---
-# 1. Add tags
-# 2. Add title
-
-# Note: Avoid using 
-# i. Special characters (like dashes and speech marks) for note title. 
-# ii. Ending in puncutations for  yaml title.  
-
-# Backlinks will populate with waypoint page, to MOC. 
-
-title: "Setting up AWS sub-account structure for projects"
+title: Setting Up AWS Sub-Account Structure For Projects
 date: 2023-11-24T09:24
 enableToc: true
 tags:
-- AWS
+  - AWS
 ---
 
 >[!note] 
@@ -143,3 +134,5 @@ The worker user should have access to assume both roles now, and this can conven
 - https://docs.aws.amazon.com/organizations/latest/userguide/orgs_tutorials_basic.html
 - https://dev.to/aws-heroes/setting-up-a-multi-account-aws-environment-1h67
 - https://www.reddit.com/r/aws/comments/109776f/how_should_individual_developers_access_devprod/
+- https://www.youtube.com/watch?v=BfE2G-fsBNU 
+

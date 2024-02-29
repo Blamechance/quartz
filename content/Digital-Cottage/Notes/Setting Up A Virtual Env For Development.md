@@ -102,3 +102,6 @@ This will install all listed dependencies in the new environment.
 
 ---
 ### Resources
+- https://www.geeksforgeeks.org/how-to-create-requirements-txt-file-in-python/
+
+
